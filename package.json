@@ -1,0 +1,32 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "tachyons": "^4.12.0"
+  },
+  "devDependencies": {
+    "@bikeshaving/crank": "^0.3.6",
+    "babel-brunch": "~6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "^6.24.1",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "crossroads": "^0.12.2",
+    "hasher": "^1.2.0",
+    "sass-brunch": "^3.0.0",
+    "signals": "^1.0.0",
+    "uglify-js-brunch": "^2"
+  }
+}
