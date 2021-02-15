@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "repository": "",
   "scripts": {
-    "start": "brunch watch --server",
+    "start": "brunch watch --server --port 3333",
     "build": "brunch build --production"
   },
   "browserslist": [
@@ -24,9 +24,13 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "crossroads": "^0.12.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
     "hasher": "^1.2.0",
+    "morgan": "^1.10.0",
     "sass-brunch": "^3.0.0",
     "signals": "^1.0.0",
-    "uglify-js-brunch": "^2"
+    "uglify-js-brunch": "^2",
+    "winston": "^3.3.3"
   }
 }
