@@ -103,7 +103,7 @@ const items = [
 
 module.exports = () => {
   return (
-    <div class="w-80 center">
+    <div class="cf w-80 center">
       <h2>Gallery</h2>
       <p class="fw1">Bits and pieces that D made. <span class="f6">(Links will open images in a new tab.)</span></p>
       { Array.from(items, obj => <Image title={obj.title} byline={obj.byline} href={obj.href} src={'images/'+obj.src+'.jpg'} />) }
