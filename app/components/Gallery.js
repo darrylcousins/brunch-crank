@@ -98,6 +98,24 @@ const items = [
     a portion of that work.
     `
   },
+  {
+    src: 'lathe',
+    href: 'https://photos.app.goo.gl/2DYFVm44HMi7Ae426',
+    title: ' Lathe',
+    byline:
+    `
+    Peter's lathe.
+    `
+  },
+  {
+    src: 'runabout',
+    href: 'https://photos.app.goo.gl/XiVwFmapB9QamZHN9',
+    title: ' Boat',
+    byline:
+    `
+    Mark's boat.
+    `
+  },
 ];
 
 
